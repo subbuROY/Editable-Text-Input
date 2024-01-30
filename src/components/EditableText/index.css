@@ -1,0 +1,40 @@
+.bg-container {
+  background-color: #f5d0fe;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.editable-text-content {
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  color: #ffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+  background-color: #d946ef;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #d946ef;
+  padding: 6px;
+  margin: 8px;
+}
+.input {
+  height: 30px;
+  margin-right: 8px;
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #323f4b;
+}
